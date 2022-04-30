@@ -1,0 +1,10 @@
+{
+    "version": "0.0.0",
+    "scripts": {
+        "start": "vite",
+        "reveal": "vite --host"
+    },
+    "devDependencies": {
+        "vite": "^2.9.6"
+    }
+}
