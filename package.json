@@ -2,7 +2,10 @@
     "version": "0.0.0",
     "scripts": {
         "start": "vite",
-        "reveal": "vite --host"
+        "reveal": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "sh deploy.sh"
     },
     "devDependencies": {
         "vite": "^2.9.6"
