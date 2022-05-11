@@ -1,21 +1,21 @@
 {
-  "version": "0.0.0",
-  "scripts": {
-    "start": "vite",
-    "reveal": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "sh deploy.sh",
-    "prettier": "npx prettier --write ."
-  },
-  "devDependencies": {
-    "prettier": "^2.6.2",
-    "vite": "^2.9.6"
-  },
-  "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-router-dom": "^5.3.0",
-    "styled-components": "^5.3.5"
-  }
+    "version": "0.0.0",
+    "scripts": {
+        "start": "vite",
+        "reveal": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "sh deploy.sh",
+        "prettier": "npx prettier --write ."
+    },
+    "devDependencies": {
+        "prettier": "^2.6.2",
+        "vite": "^2.9.6"
+    },
+    "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-router-dom": "^5.3.0",
+        "styled-components": "^5.3.5"
+    }
 }
