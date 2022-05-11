@@ -34,6 +34,7 @@ const StyledLink = styled(Link)`
     background-color: #07142e;
     color: white;
     // border-right: 1px solid #ccc;
+    // border-left: 1px solid #ccc;
 
     &:hover {
         color: #cc891d;

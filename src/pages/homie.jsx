@@ -24,6 +24,111 @@ function Homie() {
             <StyledP>
                 Greetings. Welcome to this website. This is a website in
                 progress.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
+                <br />
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text. Here is some text. Here is some
+                text. Here is some text. Here is some text. Here is some text.
+                Here is some text. Here is some text. Here is some text. Here is
+                some text. Here is some text.
+                <br />
             </StyledP>
         </StyledDiv>
     );
