@@ -11,7 +11,8 @@ const StyledNav = styled.div`
     border-bottom: 1px solid #97b1bd;
     color: white;
     font-size: 25px;
-    // position: fixed;
+    position: sticky;
+    top: 0;
 `;
 
 const StyledUL = styled.ul`
