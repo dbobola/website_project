@@ -83,3 +83,9 @@
 > [Navigation Bar Tips](https://cssdeck.com/blog/full-width-centered-navigation-bar/)
 
 > [How to Load CSS Files](https://www.geeksforgeeks.org/how-to-load-css-files-using-javascript/)
+
+> [Infinite Loops in Processing](https://bjango.com/articles/processingperfectloops/)
+
+> [Render Processing Sketch as Video](https://www.youtube.com/watch?v=G2hI9XL6oyk)
+
+> [Making Clouds Move in Processing](https://discourse.processing.org/t/make-clouds-move/18465)

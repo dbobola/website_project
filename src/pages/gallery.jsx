@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Flowers from "../../images/Bright Flowers.jpg";
 import Sparkles from "../../images/Blue Sparkles.gif";
+import Handsome from "../../images/Handsome Avatar Squidward.png";
 
 const StyledDiv = styled.div`
     margin-top: 0;
@@ -45,6 +46,13 @@ function Gallery() {
                 alt="Moving blue sparkles"
                 width="500"
                 height="500"
+            />
+            <br />
+            <StyledImg
+                src={Handsome}
+                alt="Handsome avatar Squidward"
+                width="350"
+                height="250"
             />
         </StyledDiv>
     );

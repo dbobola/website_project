@@ -55,6 +55,9 @@ function Navbar() {
                 <StyledLI>
                     <StyledLink to="/contact">CONTACT</StyledLink>
                 </StyledLI>
+                <StyledLI>
+                    <StyledLink to="/projects">PROJECTS</StyledLink>
+                </StyledLI>
             </StyledUL>
         </StyledNav>
     );

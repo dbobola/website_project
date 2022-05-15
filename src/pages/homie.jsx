@@ -20,7 +20,7 @@ const StyledP = styled.p`
 function Homie() {
     return (
         <StyledDiv>
-            <StyledH1>Hello</StyledH1>
+            <StyledH1>Home</StyledH1>
             <StyledP>
                 Greetings. Welcome to this website. This is a website in
                 progress.
