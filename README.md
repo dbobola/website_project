@@ -89,3 +89,9 @@
 > [Render Processing Sketch as Video](https://www.youtube.com/watch?v=G2hI9XL6oyk)
 
 > [Making Clouds Move in Processing](https://discourse.processing.org/t/make-clouds-move/18465)
+
+> [Create Sticky Navbar](https://alvarotrigo.com/blog/sticky-navbar/)
+
+> [Embed Processing sketch onto HTML page](https://cs.nyu.edu/~kapp/cs101/processing_on_the_web/)
+
+> [React Player](https://www.npmjs.com/package/react-player)

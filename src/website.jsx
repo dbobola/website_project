@@ -6,12 +6,14 @@ import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Navbar from "./components/navbar";
 import Unistyle from "./unistyle";
+import ScrollToTop from "./ScrollToTop";
 
 function Website() {
     return (
         <HashRouter>
             <Unistyle />
             <Navbar />
+            <ScrollToTop />
             <Switch>
                 <Redirect path="/" to="/home" exact component={Homie} />
                 <Route path="/home" exact component={Homie} />
