@@ -9,10 +9,13 @@ const StyledNav = styled.div`
     padding: 0;
     background-color: #07142e;
     border-bottom: 1px solid #97b1bd;
-    color: white;
     font-size: 25px;
     position: sticky;
     top: 0;
+
+    @media screen and (max-width: 960px) {
+        font-size: 10px;
+    }
 `;
 
 const StyledUL = styled.ul`
@@ -23,7 +26,7 @@ const StyledUL = styled.ul`
 `;
 
 const StyledLI = styled.li`
-    float: left;
+    display: inline-block;
 `;
 
 const StyledLink = styled(Link)`
@@ -32,14 +35,14 @@ const StyledLink = styled(Link)`
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    background-color: #07142e;
     color: white;
-    // border-right: 1px solid #ccc;
-    // border-left: 1px solid #ccc;
+
+    @media screen and (max-width: 960px) {
+        padding: 20px 10px;
+    }
 
     &:hover {
         color: #cc891d;
-        // background-color: #fff;
     }
 `;
 
