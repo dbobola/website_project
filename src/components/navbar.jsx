@@ -54,6 +54,9 @@ function Navbar() {
                     <StyledLink to="/home">HOME</StyledLink>
                 </StyledLI>
                 <StyledLI>
+                    <StyledLink to="/about">ABOUT</StyledLink>
+                </StyledLI>
+                <StyledLI>
                     <StyledLink to="/gallery">GALLERY</StyledLink>
                 </StyledLI>
                 <StyledLI>
