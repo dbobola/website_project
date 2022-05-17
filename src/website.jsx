@@ -6,7 +6,7 @@ import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Navbar from "./components/navbar";
 import Unistyle from "./unistyle";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Website() {
     return (
