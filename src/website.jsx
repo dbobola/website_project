@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 import Homie from "./pages/homie";
+import About from "./pages/about";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
@@ -17,6 +18,7 @@ function Website() {
             <Switch>
                 <Redirect path="/" to="/home" exact component={Homie} />
                 <Route path="/home" exact component={Homie} />
+                <Route path="/about" exact component={About} />
                 <Route path="/gallery" exact component={Gallery} />
                 <Route path="/contact" exact component={Contact} />
                 <Route path="/projects" exact component={Projects} />
