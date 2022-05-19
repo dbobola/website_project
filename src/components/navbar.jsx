@@ -6,43 +6,48 @@ const StyledNav = styled.div`
     width: 100%;
     float: left;
     margin: 0 0 1em 0;
-    padding: 0;
     background-color: #07142e;
-    border-bottom: 1px solid #97b1bd;
-    font-size: 25px;
+    border-bottom: 3px solid #97b1bd;
+    border-radius: 0 0 50px 50px;
+    font-size: 30px;
     position: sticky;
     top: 0;
-
-    @media screen and (max-width: 960px) {
-        font-size: 10px;
-    }
 `;
 
 const StyledUL = styled.ul`
-    list-style: none;
-    width: 800px;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+    text-align: center;
 `;
 
 const StyledLI = styled.li`
     display: inline-block;
+
+    @media screen and (max-width: 960px) {
+        display: block;
+    }
 `;
 
 const StyledLink = styled(Link)`
     display: block;
-    padding: 20px 40px;
+    padding: 20px 50px;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    line-height: 25px;
     color: white;
 
     @media screen and (max-width: 960px) {
-        padding: 20px 10px;
+        float: none;
+        text-align: center;
+        font-size: 20px;
     }
 
     &:hover {
         color: #cc891d;
+        background-color: #152442;
+        border-radius: 50px;
     }
 `;
 
