@@ -7,7 +7,7 @@ const Unistyle = createGlobalStyle`
     }
     
     body {
-        background-color: #e6f6fc;
+        background: linear-gradient(white, #efffed);
     }
 `;
 

@@ -6,8 +6,8 @@ const StyledNav = styled.div`
     width: 100%;
     float: left;
     margin: 0 0 1em 0;
-    background-color: #07142e;
-    border-bottom: 3px solid #97b1bd;
+    background-color: #012101;
+    box-shadow: 0 4px 10px 0 rgba(0, 120, 40, 0.4);
     border-radius: 0 0 50px 50px;
     font-size: 30px;
     position: sticky;
@@ -45,9 +45,31 @@ const StyledLink = styled(Link)`
     }
 
     &:hover {
-        color: #cc891d;
-        background-color: #152442;
+        color: #b1fc6a;
+        background-color: #094009;
+        transition-duration: 0.5s;
+        transition-property: background-color;
         border-radius: 50px;
+        animation-name: navbarHoverAnimation;
+        animation-duration: 14s;
+
+        @keyframes navbarHoverAnimation {
+            0% {
+                color: #b1fc6a;
+            }
+            25% {
+                color: #5df0e4;
+            }
+            50% {
+                color: #b1fc6a;
+            }
+            75% {
+                color: #5df0e4;
+            }
+            100% {
+                color: #b1fc6a;
+            }
+        }
     }
 `;
 
