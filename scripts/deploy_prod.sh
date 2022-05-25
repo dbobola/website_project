@@ -15,7 +15,7 @@ cd dist
 git init
 git checkout -b main
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy to production environment'
 
 git push -f git@github.com:dbobola/dbobola.github.io.git main
 
