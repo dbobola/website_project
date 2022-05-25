@@ -5,7 +5,7 @@
         "reveal": "vite --host",
         "build": "vite build",
         "preview": "vite preview",
-        "deploy": "sh deploy.sh",
+        "deploy": "sh ./scripts/deploy.sh",
         "prettier": "npx prettier --write ."
     },
     "devDependencies": {
