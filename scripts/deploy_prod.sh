@@ -17,6 +17,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy to production environment'
 
-git push -f git@github.com:dbobola/dbobola.github.io.git main
+git push -f git@github.com:dollarbeale/dollarbeale.github.io.git main
 
 cd -

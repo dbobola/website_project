@@ -17,6 +17,6 @@ git checkout -b main
 git add -A
 git commit -m 'deploy to test environment'
 
-git push -f git@github.com:dbobola/TestEnvironment.git main
+git push -f git@github.com:dollarbeale/TestEnvironment.git main
 
 cd -
