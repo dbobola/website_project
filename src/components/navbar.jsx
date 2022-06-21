@@ -6,9 +6,9 @@ const StyledNav = styled.div`
     width: 100%;
     float: left;
     margin: 0 0 1em 0;
-    background-color: #012101;
-    box-shadow: 0 4px 10px 0 rgba(0, 120, 40, 0.4);
-    border-radius: 0 0 50px 50px;
+    background-color: #303b34;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: none;
     font-size: 30px;
     position: sticky;
     top: 0;

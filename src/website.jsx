@@ -5,7 +5,7 @@ import About from "./pages/about";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
-import Navbar from "./components/navbar";
+import Sidebar from "./components/sidebar";
 import Unistyle from "./unistyle";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -13,7 +13,7 @@ function Website() {
     return (
         <HashRouter>
             <Unistyle />
-            <Navbar />
+            <Sidebar />
             <ScrollToTop />
             <Switch>
                 <Redirect path="/" to="/home" exact component={Homie} />
