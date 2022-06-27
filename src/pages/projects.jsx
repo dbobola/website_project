@@ -4,10 +4,11 @@ import Circles from "../../images/circles_0001.png";
 import Cityscape from "../../images/cityscape_0001.png";
 
 const StyledDiv = styled.div`
-    margin-top: 0;
-    margin-right: 70px;
-    margin-bottom: 25px;
-    margin-left: 70px;
+    margin: 0 70px 25px 70px;
+
+    @media screen and (max-width: 900px), (max-height: 640px) {
+        margin: 0 20px 25px 20px;
+    }
 `;
 
 const StyledH1 = styled.h1`

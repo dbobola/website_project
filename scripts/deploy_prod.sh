@@ -12,6 +12,8 @@ rm -rf dist
 npm run build
 cd dist
 
+echo 'www.dollarbeale.com' > CNAME
+
 git init
 git checkout -b main
 git add -A

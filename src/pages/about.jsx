@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-    margin-top: 0;
-    margin-right: 70px;
-    margin-bottom: 25px;
-    margin-left: 70px;
+    margin: 0 70px 25px 70px;
+
+    @media screen and (max-width: 900px), (max-height: 640px) {
+        margin: 0 20px 25px 20px;
+    }
 `;
 
 const StyledH1 = styled.h1`
