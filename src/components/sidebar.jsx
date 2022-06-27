@@ -39,6 +39,7 @@ const MobileMenuContainer = styled.nav`
         opacity: 1;
         width: 100%;
         height: 100%;
+        top: 0;
         position: fixed;
         margin: auto;
         background-color: rgba(0, 0, 0, 0.8);
