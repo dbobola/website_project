@@ -24,7 +24,7 @@ const MenuContainer = styled.nav`
         width: 100%;
         position: sticky;
         height: none;
-        margin: 0 0 0 0;
+        margin: 0 0 40px 0;
         display: flex;
         justify-content: center;
         transition: display 1s, visibility 1s;
