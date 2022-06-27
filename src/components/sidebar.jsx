@@ -37,23 +37,20 @@ const MobileMenuContainer = styled.nav`
     @media screen and (max-width: 900px), (max-height: 640px) {
         display: ${(props) => props.mobileMenuDisplay};
         opacity: 1;
-        max-width: 350px;
         width: 100%;
-        height: auto;
-        top: 80px;
+        height: 100%;
         position: fixed;
         margin: auto;
-        background-color: #382d3b;
-        box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.4);
-        animation: enterMobileMenu 1s;
+        background-color: rgba(0, 0, 0, 0.8);
+        animation: enterMobileMenu 0.6s;
 
         @keyframes enterMobileMenu {
             0% {
-                top: 0;
+                left: 100%;
                 opacity: 0;
             }
             100% {
-                top: 80px;
+                left: 0%;
                 opacity: 1;
             }
         }
@@ -78,7 +75,7 @@ const MenuList = styled.ul`
         css`
             @media screen and (max-width: 900px), (max-height: 640px) {
                 width: 100%;
-                margin: 0 auto;
+                margin: 100px auto;
                 padding: 0;
                 text-align: center;
             }
@@ -102,8 +99,10 @@ const MobileMenuItem = styled.li`
         css`
             @media screen and (max-width: 900px), (max-height: 640px) {
                 display: inline-block;
-                float: right;
-                padding: 10px 20px;
+                padding-top: 7px;
+                position: absolute;
+                z-index: 1;
+                right: 3%;
             }
         `}
 
