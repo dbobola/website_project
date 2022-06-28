@@ -2,6 +2,8 @@
 
 `website_project` is where I'm making a website as part of being taught how to code by [ssaberan](https://github.com/ssaberan).
 
+I am [dollarbeale](https://github.com/dollarbeale) and my website can be found at [www.dollarbeale.com](https://www.dollarbeale.com).
+
 ## Commands
 
 **Preview website for deployment**
