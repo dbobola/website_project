@@ -46,8 +46,12 @@ const HomePageLink = styled(Link)`
 
 const RaccoonGif = styled.img`
     margin-bottom: 30px;
+    max-width: 100%;
     width: 320px;
     height: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 function Homie() {
