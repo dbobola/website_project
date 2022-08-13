@@ -65,13 +65,7 @@ function Homie() {
                     check out my projects
                 </HomePageLink>
                 , <HomePageLink to="/gallery">view my gallery</HomePageLink>, or{" "}
-                <HomePageLink to="/about">learn more about me</HomePageLink>.
-            </SiteDescription>
-            <SiteDescription>
-                If you wish to get in touch, you may do so at my{" "}
-                <HomePageLink to="/contact">
-                    Contact Page <IoChatbubblesSharp />
-                </HomePageLink>
+                <HomePageLink to="/contact">get in touch with me</HomePageLink>.
             </SiteDescription>
             <RaccoonGif src={Raccoon} alt="Pixel Raccoon Gif" />
         </HomeContainer>

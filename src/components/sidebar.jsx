@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import styled, { css } from "styled-components";
 import { IoHome } from "react-icons/io5";
 import { IoChatbubblesSharp } from "react-icons/io5";
-import { IoMan } from "react-icons/io5";
 import { RiGalleryFill } from "react-icons/ri";
 import { FaPaintBrush } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
@@ -221,23 +220,18 @@ function Sidebar() {
                     </MenuNavLink>
                 </MenuItem>
                 <MenuItem>
-                    <MenuNavLink to="/about" data-tip="ABOUT">
-                        <IoMan />
-                    </MenuNavLink>
-                </MenuItem>
-                <MenuItem>
                     <MenuNavLink to="/gallery" data-tip="GALLERY">
                         <RiGalleryFill />
                     </MenuNavLink>
                 </MenuItem>
                 <MenuItem>
-                    <MenuNavLink to="/contact" data-tip="CONTACT">
-                        <IoChatbubblesSharp />
+                    <MenuNavLink to="/projects" data-tip="PROJECTS">
+                        <FaPaintBrush />
                     </MenuNavLink>
                 </MenuItem>
                 <MenuItem>
-                    <MenuNavLink to="/projects" data-tip="PROJECTS">
-                        <FaPaintBrush />
+                    <MenuNavLink to="/contact" data-tip="CONTACT">
+                        <IoChatbubblesSharp />
                     </MenuNavLink>
                 </MenuItem>
                 <MobileMenuItem logo>
@@ -264,14 +258,6 @@ function Sidebar() {
                     </MobileMenuItem>
                     <MobileMenuItem container>
                         <MenuNavLink
-                            to="/about"
-                            onClick={() => setmenuButtonClick(!menuButtonClick)}
-                        >
-                            ABOUT
-                        </MenuNavLink>
-                    </MobileMenuItem>
-                    <MobileMenuItem container>
-                        <MenuNavLink
                             to="/gallery"
                             onClick={() => setmenuButtonClick(!menuButtonClick)}
                         >
@@ -280,18 +266,18 @@ function Sidebar() {
                     </MobileMenuItem>
                     <MobileMenuItem container>
                         <MenuNavLink
-                            to="/contact"
-                            onClick={() => setmenuButtonClick(!menuButtonClick)}
-                        >
-                            CONTACT
-                        </MenuNavLink>
-                    </MobileMenuItem>
-                    <MobileMenuItem container>
-                        <MenuNavLink
                             to="/projects"
                             onClick={() => setmenuButtonClick(!menuButtonClick)}
                         >
                             PROJECTS
+                        </MenuNavLink>
+                    </MobileMenuItem>
+                    <MobileMenuItem container>
+                        <MenuNavLink
+                            to="/contact"
+                            onClick={() => setmenuButtonClick(!menuButtonClick)}
+                        >
+                            CONTACT
                         </MenuNavLink>
                     </MobileMenuItem>
                 </MenuList>
