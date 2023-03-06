@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import ReactPlayer from "react-player";
 import styled, { css } from "styled-components";
-import Circles from "../../images/circles_0001.png";
-import Cityscape from "../../images/cityscape_0001.png";
+import Circles from "../../videos/growing_shrinking_circles_20s.mp4";
+import Cityscape from "../../videos/neverending_cityscape_20s.mp4";
 
 const ProjectsContainer = styled.div`
     margin: 0 70px 25px 70px;
@@ -53,6 +54,40 @@ const ProjectImage = styled.img`
     border-style: solid;
     border-color: black;
     margin: 0 auto 100px auto;
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+`;
+
+const CirclesVideo = ({ classCircles }) => (
+    <ReactPlayer
+        url={Circles}
+        className={classCircles}
+        width="100%"
+        height="100%"
+        controls={false}
+        muted
+        playing
+        loop
+    />
+);
+
+const CityscapeVideo = ({ classCityscape }) => (
+    <ReactPlayer
+        url={Cityscape}
+        className={classCityscape}
+        width="100%"
+        height="100%"
+        controls={false}
+        muted
+        playing
+        loop
+    />
+);
+
+const VideoPlayerContainer = styled.div`
+    margin: 0 auto 75px auto;
     display: block;
     width: auto;
     height: auto;
@@ -121,11 +156,17 @@ function Projects() {
             </Description>
             <ProjectHeader>Processing:</ProjectHeader>
             <ProjectDescription>
-                Growing and Shrinking Bubbles
+                Blue Fairy Lights (June 2022)
             </ProjectDescription>
-            <ProjectImage src={Circles} alt="500 colorful bubbles" />
-            <ProjectDescription>Scrolling Cityscape</ProjectDescription>
-            <ProjectImage src={Cityscape} alt="Cityscape with sunset" />
+            <VideoPlayerContainer>
+                <CirclesVideo alt="blue growing and shrinking bubbles" />
+            </VideoPlayerContainer>
+            <ProjectDescription>
+                Cityscape at Sunset (Nov 2022)
+            </ProjectDescription>
+            <VideoPlayerContainer>
+                <CityscapeVideo alt="side-scrolling cityscape at sunset" />
+            </VideoPlayerContainer>
             <ProjectHeader>Miscellaneous:</ProjectHeader>
             <ProjectDescription>
                 Press the button. As the button expands, breathe in and let your
